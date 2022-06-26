@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Keseluruhan Berat</h1>
+      <table style="width:100%">
+        <tr>
+          <td>wind status</td>
+          <td>wind value</td>
+          <td>water status</td>
+          <td>water value</td>
+        </tr>
+        <tr>
+          <td>{{ .windStatus }}</td>
+          <td>{{ .windVal }}</td>
+          <td>{{ .waterStatus }}</td>
+          <td>{{ .waterVal }}</td>
+        </tr>
+      </table>
+  </body>
+</html>
