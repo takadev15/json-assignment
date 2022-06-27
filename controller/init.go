@@ -61,5 +61,5 @@ func WeatherStatus(c *gin.Context) {
 		"windVal":     windData,
 	}
 
-  c.HTML(http.StatusOK, "index.html", result)
+  c.HTML(http.StatusOK, "index.tmpl", result)
 }
